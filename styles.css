@@ -5,6 +5,9 @@ h1 {font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
 
 
 body {background-color: aqua;
+    margin: 100px;
+    padding: 10px;
+    border-style:dashed 10px  white;
       
 }
 

@@ -1,5 +1,7 @@
 /* structures of a css rule */
 
+h1 { text-align: center }
+h1 {font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}   
 
 
 body {background-color: aqua;
@@ -7,4 +9,5 @@ body {background-color: aqua;
 }
 
 footer {text-align: center;}
+footer{font-family: cursive;}
 

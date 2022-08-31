@@ -5,7 +5,6 @@ console.log('hello world!');
 let usersName = prompt('What is your name?');
 let message;
 
-
 if (usersName == 'Kassie'){
     message = 'HI TEACHER KASSIE!'
   } else if (usersName == 'Hunter') {
@@ -15,3 +14,4 @@ if (usersName == 'Kassie'){
   } else {
     message = 'Thank you for checking out my site!';
   }
+  document.write(message);

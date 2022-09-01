@@ -2,16 +2,16 @@
 
 console.log('hello world!');
 
-let usersName = prompt('What is your name?');
+let usershobby = prompt('What is your favorite hobby?');
 let message;
 
-if (usersName == 'Kassie'){
-    message = 'HI TEACHER KASSIE!'
-  } else if (usersName == 'Jade') {
-    message = "Hello there wife!";
-  } else if (usersName == 'Mike'){
-    message = "Hi Mike!";
+if (usershobby == 'basketball'){
+    message = 'That is my favorite too!'
+  } else if (usershobby == 'snowboarding') {
+    message = "Time to shred some pow!";
+  } else if (usershobby == 'fishing'){
+    message = "Fish on and bobber down!";
   } else {
-    message = 'Thank you for checking out my site!';
+    message = 'ehh that hobby is cool too!';
   }
   document.write(message);

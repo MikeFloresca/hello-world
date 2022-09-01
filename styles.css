@@ -18,11 +18,11 @@ nav {
 
 
 body {background-color: aqua;
-    margin: 100px;
+    
     padding: 10px;
-    border-style:dashed 10px  rgb(0, 0, 0);
+    border: 5px solid rgb(0, 0, 0);
   
-    background-image: url("");
+    background-image: url("https://images.unsplash.com/photo-1566041510394-cf7c8fe21800?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80");
     
        
 }
@@ -30,14 +30,14 @@ body {background-color: aqua;
 
 
 #hero {
-   width: 1200px;
+   width: 1225px;
    
 }
 
 .lower {
-    display: inline-block;
+    display: inline-flex;
     text-align: center;
-    margin-left: 100px;
+    margin-left: 10px;
   }
 
 

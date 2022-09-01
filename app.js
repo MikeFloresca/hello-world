@@ -7,8 +7,8 @@ let message;
 
 if (usersName == 'Kassie'){
     message = 'HI TEACHER KASSIE!'
-  } else if (usersName == 'Hunter') {
-    message = "Sup Hunter!";
+  } else if (usersName == 'Jade') {
+    message = "Hello there wife!";
   } else if (usersName == 'Mike'){
     message = "Hi Mike!";
   } else {

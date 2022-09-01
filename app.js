@@ -1,6 +1,9 @@
 'use strict';
 
 console.log('hello world!');
+console.log('basketball');
+console.log('fishing');
+
 
 let usershobby = prompt('What is your favorite hobby?');
 let message;
@@ -15,3 +18,5 @@ if (usershobby == 'basketball'){
     message = 'ehh that hobby is cool too!';
   }
   document.write(message);
+
+  document.write(' Thanks for checking me out!!!');

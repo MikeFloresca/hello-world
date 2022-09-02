@@ -9,9 +9,19 @@
     <h1>My Hobbies</h1>
   
 <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
-  Mother's Maiden Name: <input type="text" name="fname">
+  Email Address: <input type="text" name="fname">
   <input type="submit" value="Submit">
 </form>
+
+<script>
+  function validateForm() {
+    let x = document.forms["myForm"]["fname"].value;
+    if (x == "") {
+      alert("Name must be filled out");
+      return false;
+    }
+  }
+  </script>
 
     <nav>
           <ul> 
@@ -19,14 +29,7 @@
             <li><a href="https://hmfehr.github.io/reading-notes">Hunter's Page</a></li>
           </ul>
     </nav>
-    <script>
-      function validateForm() {
-        let x = document.forms["myForm"]["fname"].value;
-        if (x == "") {
-          alert("Name must be filled out");
-          return false;
-        }
-      }
+     
       </script>
     <script>greetUsers();</script>
     <script>showBasketball();</script>

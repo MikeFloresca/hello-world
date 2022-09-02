@@ -6,12 +6,12 @@ console.log('fishing');
 
 
 function showBasketball(){
-  let usersNum =prompt('How many basketballs would you rate my page?1-5');
+  let usersNum =prompt('Blindly rate my page?1-5');
   
   for (let i =0; i < usersNum && i < 5; i++){
 
-    // document.write('<img src="https://c.tenor.com/jk7wARavBcMAAAAd/basketball-player-basketball-moves.gif" style="width:50px;"/>');
-    let image="https://c.tenor.com/jk7wARavBcMAAAAd/basketball-player-basketball-moves.gif"
+    // document.write('<img src="https://c.tenor.com/wCUl5V7vzHwAAAAC/friends-dont-lie-promise.gif" style="width:50px;"/>');
+    let image="https://c.tenor.com/wCUl5V7vzHwAAAAC/friends-dont-lie-promise.gif"
      document.write(`<img src=${image} style="width:285px;"/>`);
   }
 }

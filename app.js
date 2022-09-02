@@ -10,9 +10,9 @@ function showBasketball(){
   
   for (let i =0; i < usersNum && i < 5; i++){
 
-    // document.write('<img src="https://cdn5.vectorstock.com/i/thumb-large/58/69/basketball-ball-in-flame-vector-33865869.jpg" style="width:50px;"/>');
-    let image="https://cdn5.vectorstock.com/i/thumb-large/58/69/basketball-ball-in-flame-vector-33865869.jpg"
-     document.write(`<img src=${image} style="width:150px;"/>`);
+    // document.write('<img src="https://c.tenor.com/jk7wARavBcMAAAAd/basketball-player-basketball-moves.gif" style="width:50px;"/>');
+    let image="https://c.tenor.com/jk7wARavBcMAAAAd/basketball-player-basketball-moves.gif"
+     document.write(`<img src=${image} style="width:285px;"/>`);
   }
 }
 
@@ -22,14 +22,14 @@ function greetUsers(){
 let usersHobby = prompt('What is your favorite hobby?');
 let message;
 
-if (usersHobby == 'basketball'){
+if (usersHobby == 'Basketball'){
     message = 'That is my favorite too!'
   } else if (usersHobby == 'snowboarding') {
     message = "Time to shred some pow!";
   } else if (usersHobby == 'fishing'){
     message = "Fish on and bobber down!";
   } else {
-    message = 'ehh that hobby is cool too!';
+    message = 'Whatever you said is cool too!';
   }
   document.write(message);
 }
